@@ -32,15 +32,15 @@ class SkuSeeder extends Seeder
 
         // Blue
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_blue_1.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_blue_1.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_blue_2.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_blue_2.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_blue_3.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_blue_3.jpg';
         $sku->images()->save($img);
 
         // S-Red
@@ -57,15 +57,15 @@ class SkuSeeder extends Seeder
 
         // Red
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_red_1.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_red_1.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_red_2.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_red_2.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_red_3.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_red_3.jpg';
         $sku->images()->save($img);
 
         // M-Blue
@@ -82,15 +82,15 @@ class SkuSeeder extends Seeder
 
         // Blue
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_blue_1.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_blue_1.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_blue_2.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_blue_2.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_blue_3.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_blue_3.jpg';
         $sku->images()->save($img);
 
         // M-Red
@@ -107,15 +107,15 @@ class SkuSeeder extends Seeder
 
         // Red
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_red_1.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_red_1.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_red_2.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_red_2.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://example.com/koszulka_red_3.jpg';
+        $img->url = 'https://raw.githubusercontent.com/atomjoy/laravel-products/refs/heads/main/public/default/koszulka_red_3.jpg';
         $sku->images()->save($img);
 
         // Product 2
