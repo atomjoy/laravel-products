@@ -11,10 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        // Schema::create('properties', function (Blueprint $table) {
-        //     $table->id();
-        //     $table->timestamps();
-        // });
+        Schema::create('properties', function (Blueprint $table) {
+			$table->id();
+			$table->unsignedBigInteger('attribute_id');
+			$table->string('name');
+			$table->timestamps();
+			$table->unique(['attribute_id', 'name']);
+			$table->foreign('attribute_id')->references('id')->on('attributes')->onUpdate('cascade')->onDelete('cascade');
+		});
     }
 
     /**

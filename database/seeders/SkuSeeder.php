@@ -32,15 +32,15 @@ class SkuSeeder extends Seeder
 
         // Blue
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/6d3e963bd38769373a5ce5ca1b37c962/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27321_1.jpg';
+        $img->url = 'https://example.com/koszulka_blue_1.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/778d3569e7c12436136281d64551b1a1/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27321_2.jpg';
+        $img->url = 'https://example.com/koszulka_blue_2.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/e059767472fc3a2d1458a6ecb2d0c637/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27321_3.jpg';
+        $img->url = 'https://example.com/koszulka_blue_3.jpg';
         $sku->images()->save($img);
 
         // S-Red
@@ -57,15 +57,15 @@ class SkuSeeder extends Seeder
 
         // Red
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/072d9a0d08de322cabda700a842dcebe/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27322_1.jpg';
+        $img->url = 'https://example.com/koszulka_red_1.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/86c40d58aa27590613826ac3c1c5dc19/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27322_2.jpg';
+        $img->url = 'https://example.com/koszulka_red_2.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/f4ab7452b207a705df014385109a4a67/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27322_3.jpg';
+        $img->url = 'https://example.com/koszulka_red_3.jpg';
         $sku->images()->save($img);
 
         // M-Blue
@@ -82,15 +82,15 @@ class SkuSeeder extends Seeder
 
         // Blue
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/6d3e963bd38769373a5ce5ca1b37c962/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27321_1.jpg';
+        $img->url = 'https://example.com/koszulka_blue_1.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/778d3569e7c12436136281d64551b1a1/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27321_2.jpg';
+        $img->url = 'https://example.com/koszulka_blue_2.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/e059767472fc3a2d1458a6ecb2d0c637/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27321_3.jpg';
+        $img->url = 'https://example.com/koszulka_blue_3.jpg';
         $sku->images()->save($img);
 
         // M-Red
@@ -107,15 +107,15 @@ class SkuSeeder extends Seeder
 
         // Red
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/072d9a0d08de322cabda700a842dcebe/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27322_1.jpg';
+        $img->url = 'https://example.com/koszulka_red_1.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/86c40d58aa27590613826ac3c1c5dc19/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27322_2.jpg';
+        $img->url = 'https://example.com/koszulka_red_2.jpg';
         $sku->images()->save($img);
 
         $img = new Image();
-        $img->url = 'https://ubratoshop.pl/hpeciai/f4ab7452b207a705df014385109a4a67/pol_pm_Koszulka-meska-slim-fit-dopasowana-Malfini-PREMIUM-Action-150-95-bawelna-180-g-m2-elegancka-27322_3.jpg';
+        $img->url = 'https://example.com/koszulka_red_3.jpg';
         $sku->images()->save($img);
 
         // Product 2
