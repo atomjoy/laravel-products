@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Resources\ProductResource;
 use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 
@@ -7,7 +8,7 @@ Route::get('/', function () {
 
     $product = Product::with('skus')->first();
 
-    return $product;
+    return new ProductResource($product);
 
     // Group attributes
     $attributes = $product->skus->pluck('attributes')->flatten()->groupBy('name')->map(function ($item) {

@@ -19,7 +19,6 @@ return new class extends Migration
 			$table->string('sku');
 			$table->unsignedBigInteger('stock_quantity')->nullable()->default(1);
 			$table->unsignedTinyInteger('on_stock')->nullable()->default(1);
-			$table->unsignedTinyInteger('is_available')->nullable()->default(1);
 			$table->timestamps();
 			$table->unique('sku');
 			$table->foreign('product_id')->references('id')->on('products')->onUpdate('cascade')->onDelete('cascade');
