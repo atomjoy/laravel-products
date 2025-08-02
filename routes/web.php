@@ -6,7 +6,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $product = Product::with('skus')->first();
+    // $product = Product::with('skus')->first();
+    $product = Product::with('skus')->find(2);
 
     return new ProductResource($product);
 

@@ -18,6 +18,7 @@ class SkuResource extends JsonResource
             'id' => $this->id,
             'product_id' => $this->product_id,
             'price' => $this->price,
+            'price_decimal' => number_format(($this->price / 100), 2, '.', ','),
             'sku' => $this->sku,
             'stock_quantity' => $this->stock_quantity,
             'on_stock' => $this->on_stock,
