@@ -30,6 +30,16 @@ class Attribute extends Model
 
 	public function skus(): BelongsToMany
 	{
-		return $this->belongsToMany(Sku::class, 'attribute_sku')->withPivot(['property_id']);
+		return $this->belongsToMany(Sku::class, 'attribute_sku')->using(AttributeSku::class)->withPivot(['property_id']);
 	}
+
+    public function scopeSize($query)
+    {
+        $query->where('name', 'Size');
+    }
+
+    public function scopeColour($query)
+    {
+        $query->where('name', 'Color');
+    }
 }

@@ -1,13 +1,15 @@
 <?php
 
 use App\Http\Resources\ProductResource;
+use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    // $product = Product::with('skus')->first();
-    $product = Product::with('skus')->find(2);
+    // return Category::with('parentRecursive', 'skus')->find(4);
+
+    $product = Product::with('skus')->find(1);
 
     return new ProductResource($product);
 

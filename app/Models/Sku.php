@@ -33,8 +33,7 @@ class Sku extends Model
 	public function attributes(): BelongsToMany
 	{
 		return $this->belongsToMany(Attribute::class, 'attribute_sku')->using(AttributeSku::class)->withPivot('property_id');
-		// return $this->belongsToMany(Attribute::class, 'attribute_sku')->using(AttributeSku::class)->as('property')->withPivot('property_id');
-		// return $this->belongsToMany(Attribute::class, 'attribute_sku')->withPivot(['property_id']);
+		// return $this->belongsToMany(Attribute::class, 'attribute_sku')->using(AttributeSku::class)->as('pivot')->withPivot('property_id');
 	}
 
 	public function images(): MorphMany
