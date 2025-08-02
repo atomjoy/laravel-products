@@ -14,8 +14,6 @@ class SkuSeeder extends Seeder
      */
     public function run(): void
     {
-        // Skus (id, price, slug, product_id, stock_quantity, on_stock = true)
-
         // Product 1
 
         // S-Blue

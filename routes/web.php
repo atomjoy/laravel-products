@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    // return Category::with('parentRecursive', 'skus')->find(4);
+    // return Category::with('parentRecursive', 'skus')->find(12);
 
     $product = Product::with('skus')->find(1);
 
