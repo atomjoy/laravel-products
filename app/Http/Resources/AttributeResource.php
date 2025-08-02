@@ -20,7 +20,7 @@ class AttributeResource extends JsonResource
             'id' => $this->id,
             'product_id' => $this->product_id,
             'name' => $this->name,
-            'property' => $this->pivot->property,
+            'property' => new PropertyResource($this->pivot->property),
             // 'pivot' => new AttributeSkuResource($this->pivot),
         ];
 
