@@ -21,6 +21,7 @@ class SkuResource extends JsonResource
             'sku' => $this->sku,
             'stock_quantity' => $this->stock_quantity,
             'on_stock' => $this->on_stock,
+            'created_at' => (string) $this->created_at,
             'attributes' => AttributeResource::collection($this->attributes),
             'images' => ImageResource::collection($this->images),
             // 'product' => $this->product,

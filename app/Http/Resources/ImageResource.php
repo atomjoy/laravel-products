@@ -18,7 +18,7 @@ class ImageResource extends JsonResource
             'id' => $this->id,
             'url' => $this->url,
             'likes' => $this->likes,
-            'featured' => $this->featured,
+            'featured' => $this->featured
         ];
 
         // return parent::toArray($request);

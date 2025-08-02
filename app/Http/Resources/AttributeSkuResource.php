@@ -18,7 +18,8 @@ class AttributeSkuResource extends JsonResource
             'attribute_id' => $this->attribute_id,
             'sku_id' => $this->sku_id,
             'property_id' => $this->property_id,
-            'property' => new PropertyResource($this->property)
+            'property' => new PropertyResource($this->property),
+            'created_at' => (string) $this->created_at,
         ];
 
         // return parent::toArray($request);
