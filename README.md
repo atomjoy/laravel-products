@@ -1,6 +1,6 @@
-# Laravel Products
+# Laravel Product Variants
 
-See: Models, database, routes, .env
+Product variants in an e-commerce store with Laravel (products, skus, attributes, properties, images).
 
 ## Baza Mysql
 
