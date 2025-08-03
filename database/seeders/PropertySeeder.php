@@ -71,12 +71,12 @@ class PropertySeeder extends Seeder
         // Ram Mobile
         Property::create([
             'attribute_id' => 6,
-            'name' => '32GB Mobile'
+            'name' => '32GB'
         ]);
 
         Property::create([
             'attribute_id' => 6,
-            'name' => '64GB Mobile'
+            'name' => '64GB'
         ]);
     }
 }
