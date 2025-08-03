@@ -165,5 +165,19 @@ class SkuSeeder extends Seeder
         // Procesor, Ram
         $sku->attributes()->attach(3, ['property_id' => 6]);
         $sku->attributes()->attach(4, ['property_id' => 8]);
+
+        // Product 3
+
+        // AppleA17-32GB
+        $sku = Sku::create([
+            'price' => 95500,
+            'sku' => 'sku-9000',
+            'product_id' => 3,
+            'stock_quantity' => 13
+        ]);
+
+        // Procesor, Ram
+        $sku->attributes()->attach(5, ['property_id' => 9]);
+        $sku->attributes()->attach(6, ['property_id' => 11]);
     }
 }

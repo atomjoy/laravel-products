@@ -34,5 +34,16 @@ class AttributeSeeder extends Seeder
             'product_id' => 2,
             'name' => 'Ram'
         ]);
+
+        // Product 3
+        Attribute::create([
+            'product_id' => 3,
+            'name' => 'Procesor Mobile'
+        ]);
+
+        Attribute::create([
+            'product_id' => 3,
+            'name' => 'Ram Mobile'
+        ]);
     }
 }

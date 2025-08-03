@@ -9,6 +9,8 @@ Route::get('/', function () {
 
     // return Category::with('parentRecursive', 'skus')->find(12);
 
+    return ProductResource::collection(Product::with('skus')->get());
+
     $product = Product::with('skus')->find(1);
 
     return new ProductResource($product);

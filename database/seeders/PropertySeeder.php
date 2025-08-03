@@ -56,5 +56,27 @@ class PropertySeeder extends Seeder
             'attribute_id' => 4,
             'name' => '64GB'
         ]);
+
+        // Procesor Mobile
+        Property::create([
+            'attribute_id' => 5,
+            'name' => 'Apple A17'
+        ]);
+
+        Property::create([
+            'attribute_id' => 5,
+            'name' => 'Exynos'
+        ]);
+
+        // Ram Mobile
+        Property::create([
+            'attribute_id' => 6,
+            'name' => '32GB Mobile'
+        ]);
+
+        Property::create([
+            'attribute_id' => 6,
+            'name' => '64GB Mobile'
+        ]);
     }
 }
