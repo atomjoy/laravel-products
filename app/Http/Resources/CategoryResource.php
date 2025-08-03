@@ -19,6 +19,8 @@ class CategoryResource extends JsonResource
             'name' => $this->name,
             'slug' => $this->slug,
             'description' => $this->description,
+            // 'parent' => $this->parent,
+            // 'parent_recursive' => $this->parentRecursive,
         ];
 
         // return parent::toArray($request);
