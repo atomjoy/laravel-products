@@ -16,13 +16,13 @@ class AttributeSeeder extends Seeder
         // Product 1
         Attribute::create([
             'product_id' => 1,
-            'name' => 'Color'
-        ]);
+            'name' => 'Size'
+        ]); // id 1
 
         Attribute::create([
             'product_id' => 1,
-            'name' => 'Size'
-        ]);
+            'name' => 'Color'
+        ]); // id 2
 
         // Product 2
         Attribute::create([
