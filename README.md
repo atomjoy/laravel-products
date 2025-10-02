@@ -20,4 +20,6 @@ GRANT ALL PRIVILEGES ON *.* TO root@127.0.0.1 IDENTIFIED BY 'toor' WITH GRANT OP
 php artisan migrate:fresh --seed
 
 php artisan serve
+
+http://127.0.0.1:8000/shop/1
 ```
