@@ -11,10 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // S, M, Red, Blue, Wool, Cotton, Polyester
         Schema::create('properties', function (Blueprint $table) {
 			$table->id();
 			$table->unsignedBigInteger('attribute_id');
 			$table->string('name');
+            $table->string('value')->nullable(); // Hex color #0055ff
 			$table->timestamps();
 			$table->unique(['attribute_id', 'name']);
 			$table->foreign('attribute_id')->references('id')->on('attributes')->onUpdate('cascade')->onDelete('cascade');
