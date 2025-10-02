@@ -44,6 +44,7 @@ Route::get('/', function () {
 // Custom selectors
 Route::get('/shop/{id}', function ($id) {
 
+    // Vat Good (vat round to 0.5 cent)
 	// $tax = 17.23;
 	// $tax = 17.23499;
 	// $tax = 17.734956;
@@ -51,6 +52,7 @@ Route::get('/shop/{id}', function ($id) {
 	// echo number_format($tax, 2) . "</br>";
 	// echo round(explode('.', "" . ($tax * 1000))[0] / 1000, 2) . "</br>";
 
+    // Vat Invalid +1 cent
 	// $tax = 17.23;
 	// $tax = 17.23499;
 	// $tax = 17.734956;
