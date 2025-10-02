@@ -15,6 +15,7 @@ return new class extends Migration
 			$table->id();
 			$table->unsignedBigInteger('product_id');
 			$table->string('name');
+            $table->string('picker')->nullable()->default('select');
 			$table->timestamps();
 			$table->unique(['product_id', 'name']);
 			$table->foreign('product_id')->references('id')->on('products')->onUpdate('cascade')->onDelete('cascade');
