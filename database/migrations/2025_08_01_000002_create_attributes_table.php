@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // Size, Color, Material
         Schema::create('attributes', function (Blueprint $table) {
 			$table->id();
 			$table->unsignedBigInteger('product_id');
