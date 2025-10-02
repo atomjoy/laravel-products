@@ -27,12 +27,14 @@ class PropertySeeder extends Seeder
         // Color
         Property::create([
             'attribute_id' => 2,
-            'name' => 'Blue'
+            'name' => 'Blue',
+            'value' => '#07f',
         ]);
 
         Property::create([
             'attribute_id' => 2,
-            'name' => 'Red'
+            'name' => 'Red',
+            'value' => '#f20',
         ]);
 
         // Procesor
